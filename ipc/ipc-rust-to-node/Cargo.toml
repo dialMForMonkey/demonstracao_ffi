@@ -1,0 +1,10 @@
+[package]
+name = "ipc-rust-to-node"
+version = "0.1.0"
+authors = ["Gabriel Souza <pcf5csaux@relay.firefox.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sys-info = "0.9"
