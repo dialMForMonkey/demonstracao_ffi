@@ -1,0 +1,12 @@
+{
+  "name": "read_files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "caller.js",
+  "scripts": {
+    "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
+    "install": "npm run build"
+  },
+  "author": "",
+  "license": "ISC"
+}

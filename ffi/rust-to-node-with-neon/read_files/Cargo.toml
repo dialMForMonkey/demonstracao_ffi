@@ -1,0 +1,14 @@
+[package]
+name = "read_files"
+version = "0.1.0"
+authors = ["Gabriel Souza <pcf5csaux@relay.firefox.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+tokio = { version = "0.1.22", features = ["fs"] }
+neon = { features = ["napi-6"] , version="0.9.1", default-features = false }
+
+
