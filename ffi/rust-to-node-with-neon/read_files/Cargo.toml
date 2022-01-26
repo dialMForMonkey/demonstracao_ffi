@@ -8,7 +8,10 @@ edition = "2018"
 crate-type = ["cdylib"]
 
 [dependencies]
-tokio = { version = "0.1.22", features = ["fs"] }
+bytes = "1.1.0"
+rayon = "1.5.1"
+#tokio = { version = "0.1.22", features = ["fs"] }
+async-std= "1.10.0"
 neon = { features = ["napi-6"] , version="0.9.1", default-features = false }
 
 
